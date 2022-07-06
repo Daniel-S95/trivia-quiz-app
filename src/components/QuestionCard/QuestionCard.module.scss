@@ -1,0 +1,23 @@
+.question-card {
+  width: 100%;
+  padding: 15px 20px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #42b883;
+  border: 1px solid #37956b;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  font-weight: 500;
+}
+
+@media (min-width: 320px) {
+  .question-card {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 641px) {
+  .question-card {
+    font-size: 1.4rem;
+  }
+}

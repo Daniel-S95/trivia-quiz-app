@@ -1,0 +1,17 @@
+.categories-container {
+  min-height: calc(100vh - 90px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .trivia-categories {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    margin: 30px auto 50px auto;
+  }
+}

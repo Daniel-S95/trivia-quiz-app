@@ -1,0 +1,37 @@
+label.answer-toggle-button {
+  background-color: #3e8b8b !important;
+  border-color: #3e8b8b;
+}
+
+label.answer-toggle-button:hover,
+label.answer-toggle-button:focus {
+  background-color: #347474 !important;
+  border-color: #347474;
+}
+
+label.answer-toggle-button-active,
+label.answer-toggle-button-active:focus {
+  background-color: #234d4d !important;
+  border-color: #234d4d;
+}
+
+label.answer-toggle-button,
+label.answer-toggle-button-active {
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+
+@media (min-width: 320px) {
+  label.answer-toggle-button,
+  label.answer-toggle-button-active {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 641px) {
+  label.answer-toggle-button,
+  label.answer-toggle-button-active {
+    font-size: 1.2rem;
+  }
+}
